@@ -15,7 +15,7 @@ public class task_1 {
         System.out.println(numbers.toString());
 
         for (int i = 0; i < numbers.size(); i++) {
-            // Integer number = iterator.next();
+            
             if (numbers.get(i) % 2 == 0 ) {
                  numbers.remove(numbers.get(i));        
                 i--;}
